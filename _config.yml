@@ -6,7 +6,7 @@ baseurl:     "/github-slideshow"
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
 markdown:    kramdown
-lsi:         false
+lsi:         true
 permalink:   "/:title"
 
 kramdown:
@@ -26,7 +26,7 @@ sass:
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -42,11 +42,11 @@ slideNumber:
 ## Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds ("cube" and "page"). To restore the previous behavior, set "center" to "false".
 reveal:
   ## Display controls in the bottom right corner
-  controls: false
+  controls: true
   ## Display a presentation progress bar
   progress: true
   ## Display the page number of the current slide
-  #slideNumber: false
+  #slideNumber: true
   ## Push each slide change to the browser history
   history: true
   ## Enable keyboard shortcuts for navigation
@@ -54,15 +54,15 @@ reveal:
   ## Enable the slide overview mode
   overview: true
   ## Vertical centering of slides
-  center: true
+  center: false
   ## Enables touch navigation on devices with touch input
   touch: true
   ## Loop the presentation
-  loop: false
+  loop: true
   ## Change the presentation direction to be RTL
-  #rtl: false
+  #rtl: true
   ## Turns fragments on and off globally
-  fragments: true
+  fragments: false
   ## Flags if the presentation is running in an embedded mode
   ## i.e. contained within a limited portion of the screen
   #embedded: false
@@ -71,11 +71,11 @@ reveal:
   ## by using a data-autoslide attribute on your slides
   #autoSlide: 0
   ## Stop auto-sliding after user input
-  #autoSlideStoppable: true
+  #autoSlideStoppable: false
   ## Enable slide navigation via mouse wheel
   #mouseWheel: false
   ## Hides the address bar on mobile devices
-  #hideAddressBar: true
+  #hideAddressBar: false
   ## Opens links in an iframe preview overlay
   #previewLinks: false
   ## Transition style (default/cube/page/concave/zoom/linear/fade/none)
